@@ -1,38 +1,45 @@
-# Pumpfun Sniper Bot
+# Solana Copy Trading Bot
 
-## Contact Info
+## Contact Information
 
-Telegram: @web3wiza
-Discord: web3_wiza
+For support or inquiries regarding this project, please feel free to reach out through the following platforms:
 
-You can always feel free to find me here for my help on other projects.
+- **Telegram**: [@web3wiza](https://t.me/web3wiza)
+- **Discord**: web3_wiza
+
+---
 
 ## Features
 
-- Snipe tokens in 1-2 seconds after pump.fun token is launched
-- Available to buy at the first block with yellowstone RPC
+The Solana Copy Trading Bot is designed to enhance your trading experience with an array of powerful features:
 
-## Usage
-1. Clone the repository
-```
-git clone https://github.com/sol-magik/solana-pumpfun-sniper-bot
-cd solana-pumpfun-sniper-bot
-```
-2. Install dependencies
-```
-npm install
-```
-3. Configure the environment variables
+- **Multi-Platform Support**: Seamlessly integrates with popular DeFi platforms such as Raydium, Meteora, Pump.fun, Orca, and Jupiter Swap.
+- **Targeted Wallet Tracking**: Easily add specific wallet addresses to monitor and copy trades from.
+- **Real-Time Transaction Copying**: Quickly catch targeted accounts' transactions with a response time of just 10 seconds.
+- **Order Types Supported**: Execute basic buy and sell orders along with limit and Dollar-Cost Averaging (DCA) orders.
+- **Comprehensive Wallet Management**: Effectively manage multiple wallets within the application.
+- **Configurable Settings**: Tailor the bot's settings to suit your trading preferences.
+- **Referral Program**: Invite friends to join the trading journey and benefit from rewards.
 
-<!-- Rename the .env.copy file to .env and set RPC and WSS, main wallet's secret key, and jito auth keypair. -->
+---
 
-4. Run the bot
+## Getting Started
 
-```
-npm run start
+### Prerequisites
 
-## Sniping Example(in 1 sec)
+Before proceeding with the installation, ensure that you have the following software installed on your machine:
 
-Token Creation Tx: https://solscan.io/tx/3nrrbwkk1a6K46KkmJc9xYpMNBmH7myeqEvKtS8BRWebyvzB4wasHWzikhDQ4NsY9ppiDpQSxjM9LAiCYebB1dZW
+- **Node.js**: Version 20.0.0 or higher
+- **npm**: Node Package Manager
 
-Token Buy Tx: https://solscan.io/tx/329CLjkHsoeLspuZHhYdWvgtTKsncqEaAr1NzMdPNXfHyZVWi9FyNyRiSScnbKWL69UcF3jk6T6u4i19zb9gsmMK
+### Installation Steps
+
+To set up the Solana Copy Trading Bot, follow the steps outlined below:
+
+1. **Clone the Repository**
+
+   Launch your terminal and execute the following commands to clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/sol-magik/solana-copy-trading-bot
+   cd solana-copy-trading-bot
